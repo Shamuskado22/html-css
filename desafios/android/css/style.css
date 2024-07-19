@@ -139,7 +139,7 @@ main article img {
     margin: auto;
 }
 
-section.video {
+div.video {
     background-color: var(--strong);
     padding: 24px;
     margin: 0 -20px;
@@ -147,7 +147,7 @@ section.video {
     padding-bottom: 50%;
 }
 
-section iframe {
+div iframe {
     position: absolute;
     top: 5%;
     left: 5%;
