@@ -54,6 +54,7 @@ main {
     background-color: black;
     color: white;
     padding: 48px 36px;
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.842);
 }
 
 .img p {
