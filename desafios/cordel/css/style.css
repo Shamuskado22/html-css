@@ -66,14 +66,15 @@ main {
 
 .img#img1 {
     background-image: url(../images/background001.jpg);
-    background-position: right;
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .img#img2 {
     background-image: url(../images/background002.jpg);
-    background-position: right;
+    background-position: center center;
+    background-repeat: [];
     background-size: cover;
     background-attachment: fixed;
 }
