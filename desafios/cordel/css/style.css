@@ -29,7 +29,7 @@ header h1 {
     font-weight: bold;
     font-variant: small-caps;
     padding: 8px;
-    padding-top: 36px;
+    padding-top: 58px;
 }
 
 header p {
@@ -59,6 +59,8 @@ main {
     color: white;
     padding: 48px 36px;
     box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.842);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img p {
@@ -71,16 +73,11 @@ main {
 .img#img1 {
     background-image: url(../images/background001.jpg);
     background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .img#img2 {
     background-image: url(../images/background002.jpg);
     background-position: center center;
-    background-repeat: [];
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 a {
