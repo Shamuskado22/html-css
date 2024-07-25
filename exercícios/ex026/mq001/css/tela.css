@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: darkgray;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header ul {
+    background-color: gray;
+    
+}
+
+ul li {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+article {
+    margin: auto;
+    width: 500px;
+}
+
+article h2 {
+    padding: 16px;
+}
+
+article p {
+    padding: 8px;
+}
