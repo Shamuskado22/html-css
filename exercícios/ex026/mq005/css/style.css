@@ -19,8 +19,23 @@ header h1 {
     text-align: center;
 }
 
-menu {
+span#burguer {
+    background-color: rgba(0, 0, 0, 0.781);
     display: block;
+    padding: 12px;
+    text-align: center;
+    color: gray;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+span#burguer:hover {
+    background-color: gray;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+menu {
+    display: none;
 }
 
 menu li {
@@ -34,7 +49,7 @@ menu  a {
     display: block;
     color: whitesmoke;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-top: 2px solid rgba(0, 0, 0, 0.342);
     transition: background-color 0.2s ease-in-out;
 }
 
