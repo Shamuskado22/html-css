@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        div.container {
+            background-color: blue;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: lightblue;
+            border: 1px solid slategray;
+            text-align: center;
+            /* flex-basis: auto; */
+        }
+
+        div#A {
+            flex: 0 1 auto; /* é o mesmo que flex: initial;*/
+            /* flex-grow: 0;
+            flex-shrink: 1; */
+        }
+
+        div#B {
+            flex: 0 0 auto; /* é o mesmo que flex: none;*/
+            /* flex-grow: 0;
+            flex-shrink: 0; */
+        }
+
+        div#C {
+            flex: 1 1 auto; /* é o mesmo que flex: auto;*/
+            /* flex-grow: 0;
+            flex-shrink: 5; */
+        }
+
+        div#D {
+            flex: 3; /* é o mesmo que flex: 3 1 auto*/
+            /* flex-grow: 3; */
+        }
+    </style>
+    <title>Flexible Box</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="A">A</div>
+        <div class="item" id="B">B</div>
+        <div class="item" id="C">C</div>
+        <div class="item" id="D">D</div>
+    </div>
+</body>
+</html>
