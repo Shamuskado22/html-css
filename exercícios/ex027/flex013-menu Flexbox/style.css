@@ -26,11 +26,13 @@ header h1 {
     color: black;
     margin-bottom: 16px;
     flex: 0 0 150px;
+    border: dotted;
 }
 
 header nav {
     display: flex;
     flex-flow: row wrap;
+    border: dotted;
 }
 
 header nav a {
