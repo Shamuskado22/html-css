@@ -23,16 +23,17 @@ header {
 }
 
 header h1 {
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
     margin-bottom: 16px;
     flex: 0 0 150px;
-    border: dotted;
+    /* border: dotted; */
 }
 
 header nav {
     display: flex;
     flex-flow: row wrap;
-    border: dotted;
+    /* border: dotted; */
 }
 
 header nav a {
@@ -57,4 +58,8 @@ main {
     margin: 8px;
     border-radius: 6px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+main h2 {
+    margin-bottom: 14px;
 }
