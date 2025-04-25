@@ -14,11 +14,16 @@ body {
   height: 100vh;
 }
 
-p,
-h1,
-h2 {
+p {
   margin-bottom: 0.625em;
   text-align: justify;
+}
+
+h1,
+h2 {
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+  text-align: left;
 }
 
 header,
@@ -29,4 +34,39 @@ section.normal {
 section.flex-content {
   padding: 1.25em;
   background-color: lightslategray;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+article.text-media {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+article.media-text {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+}
+
+article>div.text {
+  flex: 1 1 31.25rem;
+}
+
+article>div.media {
+  flex: 1 1 31.25rem;
+}
+
+div.media>img {
+  display: block;
+  margin: auto;
+  width: 18.75rem;
+}
+
+div.media>iframe {
+  display: block;
+  margin: auto;
+  width: 90%;
 }
