@@ -6,24 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     .container {
-      border: 3px solid blue;
-      height: 600px;
+      border: 3px solid lightblue;
       display: grid;
-      /*          grid-template-rows: ; grid-template-columns: ; */
-      grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+      /* grid-template-rows: repeat(3, 50px); grid-template-columns: repeat(3, auto); */
+      grid-template: repeat(3, 80px) / 1fr repeat(2, 3fr);
 
-      grid-auto-columns: 100px;
-      grid-auto-rows: 100px;
+      grid-auto-flow: row;
+
+      grid-auto-rows: 80px;
+      grid-auto-columns: 120px;
 
       gap: 10px;
-      /*   align-items: ; justify-items: ; */
-      place-items: normal normal;
-      /*   align-content: ; justify-content: ; */
-      place-content: normal normal;
+      /* align-items: start; justify-items: center; */
+      place-items: normal;
+      /* align-content: space-between; justify-content: end; */
+      place-content: normal;
     }
 
     .item {
-      border: 2px dotted red;
+      border: 2px dotted magenta;
     }
   </style>
   <title>Grid layout na prática</title>
